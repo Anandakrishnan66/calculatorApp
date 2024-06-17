@@ -1,5 +1,5 @@
 import  math
-print("\nadd\nsub\ndiv\nmul\nfact\npower")
+print("\nadd\nsub\ndiv\nmul\nfact\npower\nmod")
 val=input("Enter the choice: ")
 
 
@@ -16,6 +16,9 @@ def factorial(a):
     return math.factorial(a)
 def power(a,b):
     return math.pow(a,b)
+
+def modulus(a,b):
+    return a%b
 
 while (True):
     match val:
@@ -49,6 +52,14 @@ while (True):
         case "power":
             a = int(input("Enter the number"))
             b = int(input("Enter the power"))
+            print(power(a,b))
+            val = input("Enter the choice: ")
+
+
+
+        case "mod":
+            a = int(input("Enter the numerator"))
+            b = int(input("Enter the denominatoru"))
             print(power(a,b))
             val = input("Enter the choice: ")
         case "stop":
