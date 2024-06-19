@@ -2,6 +2,7 @@ print("\nadd\nsub\ndiv\nmul")
 val=input("Enter the choice: ")
 
 
+
 def add(a,b):
     return a+b
 def sub(a,b):
@@ -10,6 +11,8 @@ def div(a,b):
     return a/b
 def mul(a,b):
     return a*b
+def modulo(a,b):
+    return a%b
 
 while (True):
     match val:
