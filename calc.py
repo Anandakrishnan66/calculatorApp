@@ -13,6 +13,8 @@ def mul(a,b):
     return a*bgit chec
 def modulo(a,b):
     return a%b
+def per(a,b):
+    return  (a/100)*b
 
 while (True):
     match val:
